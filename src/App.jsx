@@ -1,10 +1,14 @@
 import React from 'react'
+import Navbar from './Navbar'
+import Home from './Home'
+import Footer from './Footer'
 
 function App() {
   return (
     <div>
-      <h1>Hello World! Vishal Babar</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid nesciunt tempora officia necessitatibus sed voluptatibus recusandae atque, totam laudantium laboriosam. Provident, a?</p>
+       <Navbar/>
+       <Home />
+        <Footer/>
     </div>
   )
 }
