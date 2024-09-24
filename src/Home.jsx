@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Home.css';
+import Card from './Componats/Card';
 
 function Home() {
 
@@ -18,8 +19,9 @@ function Home() {
   }
 
   return (
-    <div>
-    <section id="hero">
+   <>
+      <div>
+      <section id="hero">
         <div class="hero-content">
             <h1>I Am Home Page</h1>
              <h1>Counter value = {counter}</h1>
@@ -30,7 +32,13 @@ function Home() {
              <button onClick={addvalueNegative}>ClickFor--</button>
         </div>
     </section>
-    </div>
+      </div>
+      <div className='SMedia'>
+        <Card userName="Danish Bhai" img="https://wallpapercave.com/wp/wp4108059.jpg"/>
+        <Card userName="Om Bhai" img="https://images.news18.com/ibnlive/uploads/2022/12/virat-kohli-celebrates-his-44th-odi-ton-ap-photo-167066553516x9.jpg"/>
+      </div>
+   
+   </>
   )
 }
 

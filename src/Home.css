@@ -5,3 +5,12 @@
     margin-top: 200px;
     margin-bottom: 155px;
 }
+
+.SMedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 155px;
+    gap: 30px;
+}
